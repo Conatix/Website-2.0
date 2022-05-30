@@ -1,0 +1,37 @@
+-------------DensonRound-----------------
+/* Webfont: Denson-Round */@font-face {
+    font-family: 'DensonRound';
+    src: url('Denson-Round.eot'); /* IE9 Compat Modes */
+    src: url('Denson-Round.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Denson-Round.woff') format('woff'), /* Modern Browsers */
+         url('Denson-Round.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Denson-Round.svg#Denson-Round') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+------------DensonRound-------------------
+/* Webfont: Denson-BoldRound */@font-face {
+    font-family: 'DensonRound';
+    src: url('Denson-BoldRound.eot'); /* IE9 Compat Modes */
+    src: url('Denson-BoldRound.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Denson-BoldRound.woff') format('woff'), /* Modern Browsers */
+         url('Denson-BoldRound.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Denson-BoldRound.svg#Denson-BoldRound') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+--------------DensonLightRound-------------
+/* Webfont: Denson-LightRound */@font-face {
+    font-family: 'DensonLightRound';
+    src: url('Denson-LightRound.eot'); /* IE9 Compat Modes */
+    src: url('Denson-LightRound.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Denson-LightRound.woff') format('woff'), /* Modern Browsers */
+         url('Denson-LightRound.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Denson-LightRound.svg#Denson-LightRound') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
