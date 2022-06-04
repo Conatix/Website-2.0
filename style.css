@@ -1,0 +1,29 @@
+.denson {
+    font-family: "DensonDemo", Georgia;
+    font-size: 50px;
+}
+
+/* Webfont: DensonDemo */
+@font-face {
+    font-family: 'DensonDemo';
+    src: url('DensonDemo.eot'); /* IE9 Compat Modes */
+    src: url('DensonDemo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('DensonDemo.woff') format('woff'), /* Modern Browsers */
+         url('DensonDemo.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('DensonDemo.svg#DensonDemo') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+.bungee {
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.catamaran {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
