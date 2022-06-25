@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style-contact.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <title>Contact</title>
+</head>
+
+<body>
+
+  <div class="topnav">
+    <ul>
+      <li><a  href="#home">Home</a></li>
+      <li><a  href="#News">News</a></li>
+      <li><a  href="#contact">Contact</a></li>
+      <li><a  href="#about">About</a></li>
+    </ul>
+   
+  </div>
+
+
+  <div class="title-conact">
+    <h3>SEND US A MESSAGE</h3>
+  </div>
+
+
+
+  <div class="form-contact">
+    <form action="inquiry@conatix.com">
+
+      <div class="row">
+        <div class="col-1">
+          <label for="fname">First Name:</label>
+        </div>
+        <div class="col-4">
+          <input type="text" id="fname" name="firstname" placeholder=" Your name.." maxlength="25"required>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-1">
+          <label for="lname">Last Name:</label>
+        </div>
+        <div class="col-4">
+          <input type="text" id="lname" name="lastname" placeholder=" Your last name.."maxlength="25"required>
+        </div>
+      </div>
+
+      <br>
+      <div class="row">
+        <div class="col-1">
+          <label for="Organization">Organization:</label>
+        </div>
+
+        <div class="col-4">
+          <input type="text" id="Organization:" name="Organization:" placeholder=" Name of organization"maxlength="35"required>
+        </div>
+
+        <div class="col-1"></div>
+        <div class="col-1">
+
+          <label for="Title">Title:</label>
+        </div>
+        <div class="col-4">
+          <input type="text" id="Title" name="Title"maxlength="20"required>
+        </div>
+      </div>
+      <br>
+
+
+      <div class="row">
+        <div class="col-1">
+          <label for="email">Email Address:</label>
+        </div>
+        <div class="col-4">
+          <input type="email" id="email" name="email" placeholder=" test@test.com" maxlength="35"required>
+        </div>
+
+        <div class="col-1"></div>
+        <div class="col-1">
+          <label for="email">Confirm Email:</label>
+        </div>
+        <div class="col-4">
+          <input type="email" id="email" name="email" placeholder=" test@test.com"maxlength="35"required>
+        </div>
+      </div>
+      <br>
+
+      <label for="Message">Message:</label><br>
+      <div class="row">
+        <div class="col-12">
+      <textarea id="Message" name="Message" placeholder="  Write something.."
+        style="height:100px; width: 100%;" maxlength="1024"  minlength="3" required></textarea><br>
+      </div>
+      <p class="restrictions">1000 character limit</p>
+    </div>
+      <div class="check-subscrips">
+      <label class="check-subscrips">Do you want to join our mailing list to receive our newsletter?</label><br>
+    </div>
+
+
+      <input type="checkbox" id="join" name="join" value="yes" >
+      <label for="vehicle1"> Yes</label><br>
+      <br><br>
+
+      <div class="but-sub">
+      <input type="submit" value="SUBMIT" >
+    </div>
+
+    </form>
+  </div>
+  <footer>
+    Copyright &copy; 2022 All rights reserved
+  </footer>
+</body>
+
+</html>
